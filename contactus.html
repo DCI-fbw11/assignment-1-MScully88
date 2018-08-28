@@ -3,7 +3,29 @@
 
 <head>
     <title>Exercise 2</title>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+        }
+        th {
+            text-align: left;
+        }
+        tr:nth-child(even) td:nth-child(odd){
+            background-color:black;
+            color:white;
+        }
+        tr:nth-child(odd) td:nth-child(even){
+            background-color:black;
+            color:white;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,6 +37,32 @@
         </nav>
     </header>
     <h1>I am a contact us page...</h1>
+
+
+    <table>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Telephone Number</th>
+        <tr>
+            <td>Michael</td>
+            <td>Scully</td>
+            <td>Berlin</td>
+            <td>+49717458-3584</td>
+        </tr>
+        <tr>
+            <td>Marcel</td>
+            <td>Ruckpaul</td>
+            <td>Berlin</td>
+            <td>+4971419-6796</td>
+        </tr>
+        <tr>
+            <td>Helen</td>
+            <td>Bennet</td>
+            <td>Berlin</td>
+            <td>+49717256-3077</td>
+        </tr>
+    </table>
     <footer style="background-color:aliceblue">&copy; copy write message</footer>
 </body>
 
